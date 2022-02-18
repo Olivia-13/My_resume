@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main-content {
+  min-height: 100vh;
+  width: 97%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.left-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: brown;
+}
+.right-section {
+  grid-column: span 6;
+  background-color: papayawhip;
+  height: 100%;
+}
+
+.left-content {
+  padding: 1rem 3rem;
+}
+.profile {
+  width: 100%;
+  border-bottom: 1px solid antiquewhite;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+.name {
+  font-size: 1.5rem;
+  color: peachpuff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 0;
+}
+.career {
+  font-size: 1.2rem;
+  color: antiquewhite;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+.main-title {
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  text-decoration: underline;
+}
+.contact-info ul {
+  padding: 0.5rem 0;
+}
+.contact-info ul li {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+.contact-info ul li i {
+  padding-right: 1rem;
+  font-size: 1.1rem;
+  color: bisque;
+}
+.skills-section ul {
+  padding-top: 0.8rem;
+}
+.skills-section ul li {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.4rem 0;
+}
+.progress-bar {
+  width: 90%;
+  height: 0.5rem;
+  background-color: #00324a;
+  position: relative;
+  border-radius: 12px;
+}
+.progress {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: antiquewhite;
+  border-radius: 12px;
+}
+.C-progress {
+  width: 85%;
+}
+.py-progress {
+  width: 80%;
+}
+.sql-progress {
+  width: 90%;
+}
+.html-progress {
+  width: 75%;
+}
+.css-progress {
+  width: 75%;
+}
+.js-progress {
+  width: 60%;
+}
+.skill-title {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+.lang-section ul {
+  padding: 0.5rem 0;
+}
+.lang-section ul li {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.social-section ul {
+  padding: 0.5rem 0;
+}
+.social-section ul li {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+.social-section ul li i {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: bisque;
+}
+
+.right-main-content {
+  padding: 1rem 2rem;
+}
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: brown;
+  margin-top: 1rem;
+  text-decoration: underline;
+  position: relative;
+}
+.right-title::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background-color: #00324a;
+  border-radius: 12px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.para {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.sect {
+  padding-bottom: 2rem;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.tl-title {
+  padding-top: 1rem;
+}
+.tl-content {
+  border-left: 1px solid brown;
+  padding-left: 2rem;
+  position: relative;
+}
+.training {
+  padding-top: 1.5rem;
+}
+.interest-sect .resume_info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+}
+.int_icon {
+  font-size: 38px;
+  color: brown;
+  margin-bottom: 10px;
+}
